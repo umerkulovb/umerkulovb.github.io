@@ -1,0 +1,29 @@
+@import url("//fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  background: $base-background-color url("../images/background.png");
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-feature-settings: "kern", "liga", "pnum";
+  font-size: $base-font-size;
+  font-weight: $font-weight-normal;
+  line-height: $base-line-height;
+  display: table;
+  min-height: 100%;
+
+  section.container {
+    vertical-align: middle;
+    display: table-cell;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $base-font-family;
+}
+

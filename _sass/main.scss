@@ -1,0 +1,33 @@
+@import "grid";
+@import "variables";
+@import "layout";
+
+.hero {
+  text-align: center;
+
+  .hero-inner {
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 0 1.5em;
+
+    h3, h4 { font-size: 1.2rem; }
+  }
+
+  img {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    padding: 3px;
+    border: $base-border;
+  }
+
+  h3, h4 {
+    font-size: 1.5rem;
+    font-weight: $font-weight-light;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
