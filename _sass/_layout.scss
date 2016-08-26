@@ -27,3 +27,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $base-font-family;
 }
 
+.social {
+  padding: $base-spacing 0;
+
+  li {
+    display: inline-block;
+    padding: 0 ($base-spacing/2.5);
+
+    a {
+      color: $base-font-color;
+      transition: all 0.3s ease 0s;
+
+      &:hover, &:active, &:focus {
+        color: $primary-color;
+      }
+    }
+
+    i { font-size: 1.2em; }
+  }
+}

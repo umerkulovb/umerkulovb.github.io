@@ -1,7 +1,7 @@
 title: Bob Umerkulov
 email: b.umerkulov@gmail.com
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://umerkulovb.github.io" # the base hostname & protocol for your site
+baseurl: "/"
+url: "https://umerkulovb.github.io"
 google_analytics: UA-82816934-1
 
 # Build settings
@@ -9,5 +9,10 @@ markdown: kramdown
 
 author:
   photo: /images/me.jpg
-  email: b.umerkulov@gmail.com
   github: https://github.com/umerkulovb
+
+social:
+  mail: "mailto:b.umerkulov@gmail.com"
+  github: "https://github.com/umerkulovb"
+  twitter: "https://twitter.com/umerkulovb"
+  linkedin: "https://linkedin.com/in/umerkulovb"
