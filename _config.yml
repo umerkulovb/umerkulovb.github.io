@@ -1,4 +1,4 @@
-title: Bob Umerkulov
+title: Bobur Umerkulov
 email: b.umerkulov@gmail.com
 baseurl: "/"
 url: "https://umerkulovb.com/"
@@ -8,7 +8,7 @@ google_analytics: UA-82816934-1
 markdown: kramdown
 
 author:
-  photo: /images/me.jpg
+  photo: /images/me.jpeg
   github: https://github.com/umerkulovb
 
 social:
