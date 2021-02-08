@@ -3,6 +3,7 @@ email: b.umerkulov@gmail.com
 baseurl: "/"
 url: "https://umerkulovb.com/"
 google_analytics: UA-82816934-1
+description: Bobur Umerkulov, staff software engineer - team lead
 
 # Build settings
 markdown: kramdown
